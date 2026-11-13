@@ -1,0 +1,7 @@
+obj/
+.deps/
+out/
+stage/
+dist/
+save/
+cataclysm
