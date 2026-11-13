@@ -69,7 +69,7 @@ calendar::operator int() const
  return ret;
 }
 
-calendar& calendar::operator =(calendar &rhs)
+calendar& calendar::operator =(const calendar &rhs)
 {
  if (this == &rhs)
   return *this;
